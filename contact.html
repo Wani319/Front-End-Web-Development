@@ -3,54 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <title>Contact | FutureEd Hub</title>
-  <link rel="stylesheet" href="Wani.css">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="Wani.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
 </head>
 <body>
 
-<nav>
-
-    <div class="logo-container">
-  <div class="book">
-    <div class="left-page"></div>
-    <div class="right-page"></div>
-    <div class="pen"></div>
-    <div class="flowers">
-      <span>🌸</span>
-      <span>🌼</span>
-      <span>✨</span>
-    </div>
+<nav class="navbar">
+  <div class="logo-container">
+    <span class="logo-text">FutureEd Hub</span>
   </div>
-  <span class="logo-text">FutureEd Hub</span>
-</div>
 
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="courses.html">Courses</a>
-  <a href="contact.html">Contact</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
 </nav>
 
+<section class="hero contact-hero">
+  <div class="hero-text">
+    <h1>Contact Me</h1>
+  </div>
 
-<header>
-  <h1>Contact Me</h1>
-  <p>Let’s connect</p>
-</header>
+</section>
+<section class="contact-form-section">
+  <h2>Send a Message</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required />
 
+    <label for="email">Email</label>
+    <input type="email" id="email" name="_replyto" placeholder="Your email address" required />
 
-<section>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+  </form>
+</section>
+
+<section class="contact-info">
   <h2>Get in Touch</h2>
-  <p style="text-align:center;">
-    <strong>Email:</strong> amoswani27@gmail.com<br>
+  <p class="center-text">
+    <strong>Email:</strong> amoswani27@gmail.com<br />
     <strong>Phone:</strong> +254798325366
   </p>
 
   <div class="social-icons">
-    <a href="https://facebook.com/Mulias Wani" target="_blank"><i class="fab fa-facebook"></i></a>
-    <a href="https://instagram.com/Mulias Wani" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/Wani319" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="https://wa.me/+254106241494" target="_blank"><i class="fab fa-whatsapp"></i></a>
-    <a href="https://linkedin.com/Amos Wani" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://facebook.com/MuliasWani" target="_blank"
+      ><i class="fab fa-facebook"></i
+    ></a>
+    <a href="https://instagram.com/MuliasWani" target="_blank"
+      ><i class="fab fa-instagram"></i
+    ></a>
+    <a href="https://github.com/Wani319/Front-End-Web-Development" target="_blank"
+      ><i class="fab fa-github"></i
+    ></a>
+    <a href="https://wa.me/+254106241494" target="_blank"
+      ><i class="fab fa-whatsapp"></i
+    ></a>
+    <a href="https://linkedin.com/in/amoswani" target="_blank"
+      ><i class="fab fa-linkedin"></i
+    ></a>
   </div>
 </section>
 
@@ -58,7 +76,8 @@
   <p>&copy; 2026 FutureEd Hub</p>
 </footer>
 
-
 <script src="Mulias.js"></script>
 </body>
 </html>
+
+
